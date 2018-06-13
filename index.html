@@ -2,10 +2,12 @@
 <html>
 <head>
 	<title>TEMPLATE</title>
+	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/theme-red.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="css/component.css">
+	<link rel="stylesheet" type="text/css" href="css/temp.css">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 </head>
 <body class="theme-red">
@@ -367,6 +369,9 @@
 
 	<section class="content">
         <div class="container-fluid">
+        	<p id="modal1">Perfil</p>
+        	<p id="modal2"></p>
+        	<p id="modal3"></p>
             <div class="block-header">
                 <h2>DASHBOARD</h2>
             </div>
@@ -524,9 +529,110 @@
             </div>
         </div>
     </section>
+
+    <div id="user_profile" class="modal fade" role="dialog">
+	  <div class="modal-dialog modal-lg" >
+
+	    <!-- Modal content-->
+	    <div class="modal-content">
+	      <div class="modal-header">
+
+	      	<div class="header_container">
+		        <img class="header_background" src="images/user-profile-bg.jpg" alt="User" />
+		        <img class="header_picture img-circle" src="images/profile_user.jpg" alt="User" />
+		        <p class="header_title">FRANZ OSVALDO BELTRAN MERCADO</p>	
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	      	</div>
+
+	      </div>
+	      <div class="modal-body">
+	      	 <div class="info-box hover-expand-effect">
+                        <div class="icon">
+                            <i class="material-icons col-orange">person</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">DOCUMENTO DE IDENTIDAD</div>
+                            <div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20">4462642</div>
+                        </div>
+            </div>
+            <div class="info-box hover-expand-effect">
+                        <div class="icon">
+                            <i class="material-icons col-orange">public</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">NACIONALIDAD</div>
+                            <div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20">Boliviana</div>
+                        </div>
+            </div>
+            <div class="info-box hover-expand-effect">
+                        <div class="icon">
+                            <i class="material-icons col-orange">playlist_add_check</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">LUGAR DE NACIMIENTO</div>
+                            <div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20">Cochabamba</div>
+                        </div>
+            </div>
+            <div class="info-box hover-expand-effect">
+                        <div class="icon">
+                            <i class="material-icons col-orange">child_friendly</i>
+                        </div>
+                        <div class="content">
+                            <div class="text">FECHA DE NACIMIENTO</div>
+                            <div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20">15-10-1979</div>
+                        </div>
+            </div>
+
+	      	<div class="info-box-4 hover-expand-effect">
+                    <div class="icon">
+                        <i class="material-icons col-orange">person</i>
+                    </div>
+                    <div class="content">
+                        <div class="text">DOCUMENTO DE IDENTIDAD</div>
+                        <div class="number">4462642</div>
+                    </div>
+            </div>
+      		<div class="info-box-4 hover-expand-effect">
+                    <div class="icon">
+                        <i class="material-icons col-orange">flag</i>
+                    </div>
+                    <div class="content">
+                        <div class="text">NACIONALIDAD</div>
+                        <div class="number">Boliviana</div>
+                    </div>
+            </div>
+            <div class="info-box-4 hover-expand-effect">
+                    <div class="icon">
+                        <i class="material-icons col-orange">child_friendly</i>
+                    </div>
+                    <div class="content">
+                        <div class="text">LUGAR DE NACIMIENTO</div>
+                        <div class="number">Cochabamba</div>
+                    </div>
+            </div>
+            <div class="info-box-4 hover-expand-effect">
+            
+                    <div class="content">
+                        <div class="text">FECHA DE NACIMIENTO</div>
+                        <div class="number">15-10-1979</div>
+                    </div>
+                            <div class="icon">
+                        <i class="material-icons col-orange">cake</i>
+                    </div>
+            </div>
+	      	
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/bootstrap.js"></script>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/jquery.slimscroll.js"></script>
+	<script type="text/javascript" src="js/temp.js"></script>
 </body>
 </html>
