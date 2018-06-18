@@ -1,5 +1,16 @@
+
 $(document).ready(function () {
-	$("#modal1").click(function(){
-		$("#user_profile").modal();
+
+	$("#modal2").click(function(){
+		$("#normal_table_modal").modal("show");
 	});
+	
+	// $("#modal1").click(function(){
+	// 	$("#user_profile").modal();
+	// });
+
+	
+
+
+
 });
